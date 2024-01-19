@@ -14,7 +14,7 @@ Welcome to this repository! Here, we focus on a not-so-common yet incredibly use
 
 ## Getting Started
 
-To begin, first clone this repository. After cloning, execute `parser.py` followed by `2csv.py` to initiate the data transformation process.
+To begin, first clone this repository. After cloning, execute `parser.py` followed by `2csv.py` to initiate the data transformation process. Then unzip the Tpot_suricata_rules and run the merge_4_ML.py to get the final csv for your ML experiment.  
 
 Happy Experimenting!
 
