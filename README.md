@@ -1,6 +1,6 @@
 # Suricata Alert-Debug.log Transformation for Machine Learning
 
-Welcome to this repository! Here, we focus on a not-so-common yet incredibly useful feature of Suricata: the `alert-debug.log`. This verbose log file, often overlooked, is a goldmine for machine learning experiments. 
+Welcome to this repository! Here, we focus on a not-so-common yet incredibly useful logging feature of Suricata: the `alert-debug.log`. This verbose log file, often overlooked, is a goldmine for machine learning experiments. 
 
 ## Features
 
