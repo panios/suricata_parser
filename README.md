@@ -60,7 +60,8 @@ ALERT IN TX [00]:    N/A
 ```
 
 ```
-...and the final output in `mergedML.csv` looks like this....
+and the final output is `mergedML.csv`....
+
 Packet Data,Alert SID,Alert REV,Payload Data,Suricata_rule
 02 8B C2 CC 86 87 02 9B  30 A5 76 E8 08 00 45 00 00 34 DE 48 40 00 37 06  20 43 A2 D8 95 D1 0B 02 01 8D F6 C0 08 E8 8F 1F  64 64 6A 47 1A E2 80 11 01 FF EF C0 00 00 01 01  08 0A 79 12 AE 58 52 0C 4D F6,2001984,9,,"alert ssh any any -> any !$SSH_PORTS (msg:""ET POLICY SSH session in progress on Unusual Port""; flow:established,to_server; threshold: type both, track by_src, count 2, seconds 300; reference:url,doc.emergingthreats.net/2001984; classtype:misc-activity; sid:2001984; rev:9; metadata:created_at 2010_07_30, updated_at 2019_07_26;)"
 33 33 00 01 00 02 02 8B  C2 CC 86 87 86 DD 60 0F 13 73 00 40 11 01 FE 80  00 00 00 00 00 00 00 8B C2 FF FE CC 86 87 FF 02  00 00 00 00 00 00 00 00 00 00 00 01 00 02 02 22  02 23 00 40 92 46 01 47 8E E3 00 01 00 0E 00 01  00 01 2C B2 AC 97 02 8B C2 CC 86 87 00 06 00 08  00 17 00 18 00 27 00 1F 00 08 00 02 FF FF 00 03  00 0C C2 CC 86 87 00 00 0E 10 00 00 15 18,2030387,2,01 47 8E E3 00 01 00 0E  00 01 00 01 2C B2 AC 97 02 8B C2 CC 86 87 00 06  00 08 00 17 00 18 00 27 00 1F 00 08 00 02 FF FF  00 03 00 0C C2 CC 86 87 00 00 0E 10 00 00 15 18,"alert ipv6 any any -> ff00::/8 any (msg:""ET EXPLOIT Possible CVE-2020-11899 Multicast out-of-bound read"";  reference:url,www.jsof-tech.com/ripple20/; classtype:attempted-admin; sid:2030387; rev:2; metadata:created_at 2020_06_22, former_category EXPLOIT, performance_impact Significant, signature_severity Major, updated_at 2020_08_20;)"
