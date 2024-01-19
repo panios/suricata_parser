@@ -32,6 +32,6 @@ def append_suricata_rule_to_csv(csv_file_path, txt_file_path, output_csv_file_pa
 
 # Example usage
 csv_file_path = 'output.csv'
-txt_file_path = 'Tpot_suricata_rules.txt'
+txt_file_path = 'Tpot_suricata_rules' #this is the file with the tpot suricata rules from the zip file. 
 output_csv_file_path = 'mergedML.csv'
 append_suricata_rule_to_csv(csv_file_path, txt_file_path, output_csv_file_path)
