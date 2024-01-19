@@ -6,15 +6,15 @@ Welcome to this repository! Here, we focus on a not-so-common yet incredibly use
 
 - **Alert-Debug.log to CSV Conversion**: We provide scripts that efficiently transform the typically cluttered `alert-debug.log` into a clean and structured CSV format. This conversion is essential for making the data amenable to machine learning algorithms.
 
-- **Real-World Data Sample**: To add a touch of realism and enhance the learning experience, I've included a sample `alert-debug.log` file. This sample was captured by running a honeypot (T-Pot) on AWS. It's a practical example to see how real-world data looks and behaves.
+- **Real-World Data Sample**: To add a touch of realism and enhance the learning experience, I've included a sample `alert-debug.log` file (see: logs_suricata). This sample was captured by running a honeypot (T-Pot) on AWS. It's a practical example to see how real-world data looks and behaves.
 
 ## Advantages
 
-- **Pcap Data Analysis**: One of the major benefits of this conversion is the facilitation of pcap header and payload data analysis, particularly in hexadecimal format. This is a crucial aspect for those delving into detailed network data analysis and cybersecurity applications.
+- **Pcap Data Analysis**: One of the major benefits of this conversion is the facilitation of pcap header and payload data analysis, particularly in hexadecimal format. This is a crucial aspect for advanced network data analysis and cybersecurity applications.
 
 ## Getting Started
 
-To get started, simply clone this repository and follow the instructions provided to convert your `alert-debug.log` files into a more usable format. Whether you are a seasoned data scientist or a curious beginner in the field of network security, these tools are designed to enhance your machine learning experiments with real-world data.
+To get started, simply clone this repository and follow the instructions provided to convert your `alert-debug.log` files into a more usable CSV format.
 
 Happy Experimenting!
 
