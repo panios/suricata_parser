@@ -20,7 +20,7 @@ Happy Experimenting!
 
 
 ```
-Example of alert-debug.log_
+Example of alert-debug.log
 +================
 TIME:              12/21/2023-05:51:36.729125
 PKT SRC:           wire/pcap
