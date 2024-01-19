@@ -14,7 +14,7 @@ Welcome to this repository! Here, we focus on a not-so-common yet incredibly use
 
 ## Getting Started
 
-To get started, simply clone this repository and follow the instructions provided to convert your `alert-debug.log` files into a more usable CSV format.
+To begin, first clone this repository. After cloning, execute `parser.py` followed by `2csv.py` to initiate the data transformation process.
 
 Happy Experimenting!
 
